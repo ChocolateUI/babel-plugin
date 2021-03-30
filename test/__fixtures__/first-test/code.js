@@ -1,1 +1,1 @@
-const a = `https://edu-activity.wps.cn/activity?fe_env=e`;
+const a = `https://edu-activity.cn/activity?fe_env=e`;
