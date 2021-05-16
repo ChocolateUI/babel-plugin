@@ -41,13 +41,11 @@ function sum(a, b){
 转换为
 
 ```js
-(
-  function sun(a, b) {
-    try {
-      return a + b + c
-    } catch(error) {
-      console.log(error)
-    }
+(function sum(a, b) {
+  try {
+    return a + b + c;
+  } catch (error) {
+    console.log(error);
   }
-)
+});
 ```

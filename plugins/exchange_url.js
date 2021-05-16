@@ -1,4 +1,4 @@
-module.exports = function({ types: babelTypes }) {
+module.exports = function() {
   return {
     name: "exchange-url-plugins",
     visitor: {
@@ -12,6 +12,6 @@ module.exports = function({ types: babelTypes }) {
   };
 };
 
-function replacement(url, opts){
+function replacement(url){
   return url.raw.replace('?fe_env=e', '')
 }
