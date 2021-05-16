@@ -1,5 +1,5 @@
 const pluginTester = require('babel-plugin-tester').default
-const myPlugin = require('./plugin.js')
+const myPlugin = require('./plugins/exchange_url.js')
 const path = require('path')
 
 pluginTester({

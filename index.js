@@ -1,1 +1,0 @@
-const a = `https://edu-activity.cn/activity?fe_env=e`
